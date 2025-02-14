@@ -3,7 +3,7 @@ import ItemList from '../components/ItemList';
 import { artistArray } from '../assets/database/artists';
 import { songsArray } from '../assets/database/songs';
 
-const Main2 = () => {
+const Main2 = ({ type }) => {
   return (
     <div className="main">
       {/* item list de Artista */}
